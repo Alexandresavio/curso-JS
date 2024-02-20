@@ -1,6 +1,7 @@
-const a = 7 
+const a = 7 // Operador de atribuição simples ' = '
 let b = 3
 
+//Operadores de atribuição combinada, estes operadores realizam uma operação aritmética e atribuem o resultado à variável.
 b += a // b = b + a
 console.log(b)
 
