@@ -1,7 +1,7 @@
 {
     {
         {
-            var sera = "Será?" //quando a variavel for declarada em um boco que não seja uma função, neste caso será de escopo global
+            var sera = "Será?" //quando a variavel for declarada em um bloco que não seja uma função, neste caso será de escopo global
             console.log(sera)
         }
     }
@@ -15,4 +15,4 @@ function teste(){
 }
 
 teste()
-console.log(local)// vai gerar erro!
+console.log(local)// vai gerar erro pois esta fora da function!

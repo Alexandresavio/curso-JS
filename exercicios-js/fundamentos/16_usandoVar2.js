@@ -5,3 +5,5 @@ var numero = 1
 }
 
 console.log(`Var fora do bloco = ${numero}`)
+
+// Neste caso var tem escopo global, pois apesar de estar dentro de um bloco, este não é uma function
