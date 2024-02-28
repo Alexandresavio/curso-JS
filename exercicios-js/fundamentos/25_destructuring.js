@@ -1,6 +1,6 @@
 //novo recurso ES2015
 
-//Destructuring de Objeto:
+//criando objeto pessoa
 const pessoa = {
     nome: "Ana",
     idade: 5,
@@ -10,6 +10,7 @@ const pessoa = {
     }
 }
 
+//Destructuring de Objeto:
 const{nome, idade} = pessoa // estou extraindo do objeto pessoa o atributo nome e o atributo idade
 console.log(nome, idade)
 
@@ -34,7 +35,7 @@ console.log(nota)
 
  /* Destructuring de função
   *  Exemplo:
-  *  Esta função vai retornar um número aleatório e aí eu vou passar pra ele 
+  *  A função abaixo vai retornar um número aleatório e aí eu vou passar pra ele 
   * dois atributos só que dentro de um operador destructuring('{}').
   */
 function rand({min = 0, max = 1000}){
