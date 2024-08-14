@@ -2,7 +2,7 @@
  * sintaxe:
  * <const> <identificador> = []
  */
-const arrayValores = [7.7, 8.9, 6.3, 9.2] //em js o array é dinamico, não é necessário definir seu tipo ou tamanho
+const arrayValores = [7.7, 8.9, 6.3, 9.2] //em js o array é heterogeneo e dinamico, não é necessário definir seu tipo ou tamanho
 console.log(arrayValores[0], arrayValores[3])// mostra o elemento de indice [0] o de indice[3]
 console.log(arrayValores[4]);// não existe o indice [4] no array, o js retorna undefined
 
