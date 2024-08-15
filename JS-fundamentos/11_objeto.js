@@ -15,8 +15,9 @@ const prod2 ={
 }
 console.log(prod2)
 
-//json <> de objeto
-`{
-    "nome": "Camisa polo",
-    "preco": 79.99
-}`
+/*json <> de objeto
+    `{
+        "nome": "Camisa polo",
+        "preco": 79.99
+    }`
+*/
