@@ -6,7 +6,7 @@ prod1['Desconto legal'] = 0.40; //evitar atributos com espaço
 console.log(prod1);
 
 /**
- * Objeto é um conjunto de pares <chave>: <valor>
+ * Objeto é um conjunto de pares <identificador>: <valor>
  * Declaração de um objeto em js:
  */
 const prod2 ={
@@ -15,7 +15,7 @@ const prod2 ={
 }
 console.log(prod2)
 
-/*json <> de objeto
+/*json != objeto
     `{
         "nome": "Camisa polo",
         "preco": 79.99

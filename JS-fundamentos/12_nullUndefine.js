@@ -8,7 +8,7 @@ console.log(valor)
 //console.log(valor.toString()) //Erro!
 
 const produto = {}
-console.log(produto.preco)//o objeto produto acessou o atributo, porém ele não está declarado, esta undefined
+console.log(produto.preco)//o objeto produto acessou o atributo (preco), porém ele não está declarado, esta undefined
 console.log(produto)// objeto produto esta vazio
 
 produto.preco = 3.50
