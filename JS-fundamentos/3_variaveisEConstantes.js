@@ -1,13 +1,13 @@
 /**
  * sintaxe de declaração variaveis 
  * var <identificador> = <valor>
- * 
- * var -> tem escopo global: As variáveis declaradas com var 
+ * **/
+var a = 3;
+ /* var -> tem escopo global: As variáveis declaradas com var 
  * têm escopo de função ou escopo global, o que significa que 
  * são visíveis em toda a função em que são declaradas. 
- * 
  */
-var a = 3;
+
 
 /* Let -> Escopo de bloco: As variáveis declaradas com let têm escopo de bloco,
  * o que significa que são visíveis apenas dentro do bloco em que são declaradas,
@@ -16,7 +16,7 @@ var a = 3;
 let b = 4;
 
 var a = 30;// var permite redeclarar a variavel quantas vezes quiser.
-b = 45;
+b = 45; //let permite declarar a variavel apenas uma vez.
 
 console.log(a, b);
 
