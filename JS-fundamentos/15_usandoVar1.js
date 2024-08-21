@@ -1,18 +1,24 @@
 {
     {
         {
-            var sera = "Será?" //A variável var  declarada em um bloco que não seja uma função, neste caso será de escopo global
-            console.log(sera)
+            /**
+             * As variáveis declaradas com var têm escopo de função ou escopo global,
+             * o que significa que são visíveis em toda a função em que são declaradas.
+             */
+            var sera = "Será?" 
+            console.log(`escopo de bloco = ${sera}`)
         }
     }
 }
 
-console.log(sera)
+console.log(`escopo fora do bloco (Global) = ${sera}`)
 
+//quando a variavel var for declarada em um boco que seja uma função, neste caso ela tem escopo de funcao (local)
 function teste(){
-    var local = 123 //quando a variavel var for declarada em um boco que seja uma função, neste caso ela tem escopo de funcao (local)
-    console.log(local)
+    var local = 123 
+    console.log(`Variavel com escopo de função = ${local}`)
 }
 
 teste()
-console.log(local)// vai gerar erro pois esta fora da function!
+// vai gerar erro pois esta fora da function!
+console.log(`Variavel com fora do escopo de função = ${local}`)
