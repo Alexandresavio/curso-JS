@@ -1,3 +1,4 @@
+
 //par nome/valor
 const saudacao = "Opa!" //contexto léxico 1
 
@@ -9,11 +10,11 @@ console.log(saudacao)
 console.log(exec())
 
 //objetos são grupos aninhados de pares nome/valor
-const cliente ={
+const cliente = {
     nome: "Sávio",
     idade: 40,
     peso: 65,
-    endereco:{
+    endereco: {
         logradouro: "Rua XPTO",
         numero: 428
     }

@@ -14,14 +14,14 @@ const pessoa = {
 const{nome, idade} = pessoa // estou extraindo do objeto pessoa o atributo nome e o atributo idade
 console.log(nome, idade)
 
-const {nome: n, idade: i} = pessoa //estou extraindo do objeto pessoa o atributo nome e o atributo idade, agora criei variáveis com a letra 'e' e 'i'
+const {nome: n, idade: i} = pessoa //estou extraindo do objeto pessoa o atributo nome e o atributo idade, agora criei variáveis com a letra 'n' e 'i'
 console.log(n, i)
 
-const{sobrenome, bemHumorada = true} = pessoa // os atributos 'sobrenome' e bemHumorada não existem no objeto, por padrão dá para inferir
-console.log(sobrenome, bemHumorada)           // que ele vai retornar algo como undenifined, exceto 'bemHumorada que esta recebendo true'
+const{sobrenome, bemHumorada = true} = pessoa // os atributos 'sobrenome' e bemHumorada não existem no objeto, por padrão dá para inferir que irá retornar undefined
+console.log(sobrenome, bemHumorada) // que ele vai retornar algo como undenifined, exceto 'bemHumorada que esta recebendo true'
 
-const {endereco:{logradouro, numero, cep}}= pessoa // estou extraindo do objeto endereco, os atributos logradouro, numero e criei um atributo
-console.log(logradouro, numero, cep)               //atributo cep que irá retornar undefined
+const {endereco:{logradouro, numero, cep}}= pessoa // estou extraindo do objeto endereco, os atributos logradouro e numero e também criei um atributo cep
+console.log(logradouro, numero, cep) //atributo cep irá retornar undefined
 
 //Destructuring de Array:
 const [a] = [10]
