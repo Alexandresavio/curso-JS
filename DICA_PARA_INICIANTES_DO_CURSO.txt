@@ -4,8 +4,8 @@ Comprou o curso Web Moderno e ainda continua perdido com tantos assuntos apresen
 
 APRESENTAÇÃO:
 
-Seção 1 - introdução.
-Seção 2 - Configuração de Ambiente.
+Seção 1 - introdução.               [X]
+Seção 2 - Configuração de Ambiente. [X]
 Após a apresentação, agora é pra valer! Aqui começam os estudos:
 
 HTML E CSS:
@@ -17,9 +17,9 @@ Não pule para as próximas etapas se não estiver familiarizado com os conceito
 
 JAVASCRIPT:
 
-Seção 3 - Iniciando com Programação
-Seção 4 - Fundamentos 
-Seção 5 - Estruturas de controle
+Seção 3 - Iniciando com Programação [X]
+Seção 4 - Fundamentos               [X]
+Seção 5 - Estruturas de controle    [X]
 Seção 6 - Função
 Seção 7 - Objeto
 Seção 8 - Array
