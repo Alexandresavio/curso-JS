@@ -7,8 +7,10 @@ const imprimirSoma = function(a, b){
 //chamada da funcao
 imprimirSoma(2, 3)
 
-//Armazenando uma funcao arrow em uma variavel / constante
-// o simbolo (=>) representa uma funcao arrow function
+/**
+ * Armazenando uma funcao arrow em uma variavel/constante 
+ * o simbolo (=>) representa uma funcao arrow function 
+ */
 const soma = (a, b) => { 
     return a + b
 }

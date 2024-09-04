@@ -1,8 +1,10 @@
 console.log(Math.ceil(6.1))
 
-const obj1 ={}
-obj1.nome = "Bola"
+const obj1 ={}//instaciando objeto vazio
+obj1.nome = "Bola" // criando atributo 'nome' dinâmicamente para o objeto 
+obj1['idade'] = 43+' anos '//Outra forma de criar atributos dinâmicamente
 console.log(obj1.nome)
+console.log(obj1.idade)
 
 function obj(nome){
     this.nome = nome

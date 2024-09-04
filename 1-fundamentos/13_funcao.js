@@ -15,11 +15,11 @@
 function imprimirSoma(valor1, valor2){
     console.log(`Resultado da soma = ${valor1 + valor2}`)
 }
-//passagem de parametros
+//chamada da função e passagem de argumentos
 imprimirSoma(2, 3)// passei dois parametros e a função faz a soma
 imprimirSoma(2)// passando apenas um parametro, outro será intrepretado como undefined, resultado NAN
 imprimirSoma(2, 10, 4, 5, 6, 7, 8)// passei mais de dois parametros o JS faz a soma dos dois primeiros e ignora o restante
-imprimirSoma()// passando nenhum parametro, será intrepretado como undefine, resultado NAN
+imprimirSoma()// passando nenhum parametro, será intrepretado como undefined, resultado NAN
 
 //2º exemplo: Funcao com retorno
 function somar(a, b=1) {

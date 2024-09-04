@@ -3,18 +3,18 @@
         {
             /**
              * As variáveis declaradas com var têm escopo de função ou escopo global,
-             * o que significa que são visíveis em toda a função em que são declaradas.
+             * quando estiver declarada fora do escopo de função, estara visivel para todos
              */
             var sera = "Será?" 
             console.log(`Variavel VAR de escopo de bloco = ${sera}`)
         }
     }
 }
-
 console.log(`Variavel VAR de escopo fora do bloco (Global) = ${sera}`)
 
+
 /**
- * quando a variavel do tipo var for declarada em um boco que seja uma função,
+ * quando a variavel do tipo var for declarada em um bloco que seja uma função,
  * neste caso ela estará visivel apenas no bloco da função, ou seja tem escopo de funcao
  */
 function teste(){
@@ -23,6 +23,6 @@ function teste(){
 }
 //chamada da função
 teste()
-// vai gerar erro pois esta fora da function!
 console.log("")
+// vai gerar erro pois esta fora da function!
 console.log(`Variavel VAR com fora do escopo de função = ${local}`)

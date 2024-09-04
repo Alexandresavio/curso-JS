@@ -3,10 +3,10 @@
 const saudacao = "Opa!" //contexto léxico 1
 
 function exec(){
-    const saudacao = "Falaaaa" //contexto léxico 2
+    const saudacao = `Falaaaaaa, Alexandre!` //contexto léxico 2
     return saudacao
 }
-console.log(saudacao)
+console.log(`${saudacao} Sávio`)
 console.log(exec())
 
 //objetos são grupos aninhados de pares nome/valor
