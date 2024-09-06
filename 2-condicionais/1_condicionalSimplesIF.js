@@ -5,18 +5,21 @@ function soBoaNoticia(nota){
     console.log(`Aprovado com nota ${nota}`)
     }
 }
-
 //chamada do método 1
 soBoaNoticia(8.1)
 
 
 //crição do método 2
 function seForVerdadeFalo(valor){
+    /**como não explicitamos a condição if com algum operador,
+     * o JS entende que dentro da variável "valor" deverá ser do tipo
+     * verdadeiro ou falso. Neste exemplo de valor for verdadeiro, 
+     * deve mostrar algo no console.
+     */
     if(valor){
         console.log(`é verdade... ${valor}`)
     }
 }
-
 //chamada método 2
 seForVerdadeFalo()//sem parâmetro
 seForVerdadeFalo(null)
