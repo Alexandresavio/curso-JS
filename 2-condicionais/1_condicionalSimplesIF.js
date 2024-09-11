@@ -11,10 +11,9 @@ soBoaNoticia(8.1)
 
 //crição do método 2
 function seForVerdadeFalo(valor){
-    /**como não explicitamos a condição if com algum operador,
-     * o JS entende que dentro da variável "valor" deverá ser do tipo
-     * verdadeiro ou falso. Neste exemplo de valor for verdadeiro, 
-     * deve mostrar algo no console.
+    /** como não explicitamos a condição if com algum operador, o JS entende que dentro da 
+     *  variável "valor" deverá ser do tipo verdadeiro ou falso. Neste exemplo de valor
+     *  for verdadeiro, deve mostrar algo no console.
      */
     if(valor){
         console.log(`é verdade... ${valor}`)
