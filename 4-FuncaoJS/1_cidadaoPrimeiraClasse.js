@@ -4,7 +4,7 @@
 
 /**
  *  criar um função de forma literal
- *  <function> <nomeDaFuncao(parâmetros...)><{}>
+ *  function nomeDaFuncao(parâmetros...){}
  */
 function fun1(){
 
