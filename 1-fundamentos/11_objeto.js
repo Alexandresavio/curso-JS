@@ -9,7 +9,7 @@ console.log(prod1);
  * Objeto é um conjunto de pares <identificador>: <valor>
  * Declaração de um objeto em js:
  */
-const prod2 ={
+const prod2 = {
     nome: "Camisa polo", 
     preco: 79.99
 }
