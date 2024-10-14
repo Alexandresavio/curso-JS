@@ -15,7 +15,7 @@ const prod2 = {
 }
 console.log(prod2)
 
-/*json != objeto
+/*json != objeto - JSON é um formato textual de objeto
     `{
         "nome": "Camisa polo",
         "preco": 79.99
