@@ -2,11 +2,10 @@ const prod1 = {}//instancia de um objeto
 prod1.nome = "Celular ultra mega"; //cria dinâmicamente um atributo dentro do objeto
 prod1.preco = 4998,90;
 prod1['Desconto legal'] = 0.40; //evitar atributos com espaço
-
 console.log(prod1);
 
 /**
- * Objeto é um conjunto de pares <identificador>: <valor>
+ * Objeto é um conjunto de pares <chave>: <valor>
  * Declaração de um objeto em js:
  */
 const prod2 ={
@@ -16,6 +15,7 @@ const prod2 ={
 console.log(prod2)
 
 /*json != objeto
+  json é uma representação textual
     `{
         "nome": "Camisa polo",
         "preco": 79.99
