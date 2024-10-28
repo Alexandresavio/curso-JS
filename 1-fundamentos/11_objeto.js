@@ -8,14 +8,13 @@ console.log(prod1);
  * Objeto é um conjunto de pares <chave>: <valor>
  * Declaração de um objeto em js:
  */
-const prod2 ={
+const prod2 = {
     nome: "Camisa polo", 
     preco: 79.99
 }
 console.log(prod2)
 
 /*json != objeto
-  json é uma representação textual
     `{
         "nome": "Camisa polo",
         "preco": 79.99
